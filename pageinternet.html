@@ -5,21 +5,19 @@
    <title>titre de la page</title>
    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 </head>
-<body>
-   
-    
+<body> 
 
-    <h1>Page 1: Histoire d'Interent</h1>
-   
-    <p>L’​<strong>histoire d'Internet​</strong> remonte au développement des premiers réseaux de télécommunication. 
-      L’idée d’un réseau informatique, permettant aux utilisateurs de différents ordinateurs de  
-      communiquer, se développa par de nombreuses étapes successives. La somme de tous ces  
-      développements conduisit au « réseau des réseaux (<i>​network of networks​</i>) que nous 
-      connaissons aujourd’hui en tant qu'Internet. Il est le fruit à la fois de développements 
-      technologiques et du regroupement d’infrastructures réseau existantes et de systèmes de 
-      télécommunications. </p>
-   
-      
+    <main>    
+    <section>
+       <h1>Page 1: Histoire d'Interent</h1>
+       <p>L’​<strong>histoire d'Internet​</strong> remonte au développement des premiers réseaux de télécommunication. 
+       L’idée d’un réseau informatique, permettant aux utilisateurs de différents ordinateurs de  
+       communiquer, se développa par de nombreuses étapes successives. La somme de tous ces  
+       développements conduisit au « réseau des réseaux (<em>​network of networks​</em>) que nous 
+       connaissons aujourd’hui en tant qu'Internet. Il est le fruit à la fois de développements 
+       technologiques et du regroupement d’infrastructures réseau existantes et de systèmes de 
+       télécommunications. </p>  
+
       <p>
         Deux phases d'accélérations se produisirent : à la fin des années 1960-1970, l’application 
         pratique des concepts évoqués à la fin des années 1950 et ensuite, dans les années 1990, 
@@ -36,20 +34,22 @@
         bulle Internet
 
       </p>
-      
-
+    </section>
+       
+        <section>
          <h2> Chronologie sélective </h2> 
         <!-- debut du tableau -->
 
         <table>
 
             <thead>
-            <tr >
+            <tr>
                 <th>Année</th>
                 <th>Evènement</th>
             </tr>
         </thead>
-
+        
+        <tbody>
             <tr>
                 <td> <b>1952</b></td>
                 <td>Semi-Automatic Ground Environment​ : Système d'armes mettant en réseau 40
@@ -181,16 +181,24 @@
                 <td> <b>2014</b></td>
                 <td >La barre du milliard de sites web est franchie​.</td>
             </tr>
+        </tbody>
         </table> <br>
-
+        <!-- fin du tableau -->
+                
+        
         <!-- lien vers image logo de l'ordinateur -->
 
-        <img src="https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/image/jpg/113cd572-69cb-46ca-a07c-d44b712b8031.jpg" width="610" height="600" alt="logo web" >
-         <p>Fig.1 - Le premier​ serveur web​, actuellement au musée du​ CERN​, étiqueté « ​This machine is aserver. DO NOT POWER IT DOWN!!​ »</p> <br>
+        <figure>
+          <img src="https://simplonline-v3-prod.s3.eu-west-3.amazonaws.com/media/image/jpg/113cd572-69cb-46ca-a07c-d44b712b8031.jpg" width="610" height="600" alt="logo web">
+          <figcaption>Fig.1 - Le premier​ serveur web​, actuellement au musée du​ CERN​, étiqueté « ​This machine is aserver. DO NOT POWER IT DOWN!!​ »</figcaption> 
+        </figure>
+       </section>
 
-         <h2>Protocole TCP/IP</h2>
 
-         <p>L'abondante diversité des méthodes de communications réseau amena un besoin
+        <article>
+        <h2>Protocole TCP/IP</h2>
+
+        <p> L'abondante diversité des méthodes de communications réseau amena un besoin
             dans le but detravailler ensemble sur ce problème. En 1973, ils avaient déjà
             réalisé une reformulationprofonde, dans laquelle les différences entre les protocoles
             s'estompaient par l'utilisation d'unprotocole de communication : au lieu d'asseoir la fiabilité 
@@ -203,7 +211,11 @@
             prototype, et après plusieurs années de travail, lapremière démonstration quelque peu rustique de ce qu'était
             alors devenu le TCP/IP eut lieu enjuillet 1977. Cette nouvelle méthode se répandit au travers des réseaux,
             et le 1​er​  janvier 1983les protocoles TCP/IP devenaient officiellement le seul protocole sur l'ARPANET,
-            remplaçant leprécédent protocole NCP2.</p>    
+            remplaçant leprécédent protocole NCP2.</p>
+
+        </article>
+        
+    </main>    
 
         
 </body>
